@@ -80,7 +80,7 @@ function App() {
                 <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>About</h2>
               </div>
               <div>
-                <p className='mb-4'>From an early age, computers held an irresistible allure for me. It all began when my father introduced me to the world of technology with used PCs. Intrigued by their capabilities, my fascination with programming and networking took root. I vividly recall the transformative moment when I delved into modding GTA San Andreas, igniting a lifelong passion for programming.</p>
+                <p className='mb-4'>From an early age, computers held an irresistible allure for me. It all began when my father introduced me to the world of technology with used PCs. Intrigued by their capabilities, my fascination with programming and networking took root. I vividly recall the transformative moment when I poking around into modding Grand Theft Auto: San Andreas, igniting a lifelong passion for programming.</p>
                 <p className='mb-4'>This newfound love propelled me on a journey of exploration and learning. HTML, CSS, JavaScript, Java, C, and network programming became my playground as I continuously expanded my skill set. It was during this time that I discovered the immense power of Node.js, an influential runtime environment for server-side JavaScript.</p>
                 <p className='mb-4'>Node.js opened up boundless possibilities in web development. Its non-blocking, event-driven architecture captivated me, allowing me to build scalable server applications with JavaScript. Harnessing the extensive ecosystem of Node.js libraries and frameworks, I honed my craft in constructing robust web solutions.</p>
                 <p className='mb-4'>Driven by my dreams, I pursued a software engineering major at a vocational high school while gaining practical experience through freelancing and collaborating with diverse entities. This hands-on journey led me to work alongside the Indonesian Ministry of Finance and innovative startups. Throughout these experiences, my expertise in Node.js played a pivotal role in developing cutting-edge solutions.</p>
@@ -96,7 +96,7 @@ function App() {
                   <li className='mb-12'>
                     <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
                       <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>2022 - Present</header>
+                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>Oct 22 - Present</header>
                       <div className='z-10 sm:col-span-6'>
                         <h3 className='font-medium leading-snug text-slate-200'>
                           <div>
@@ -113,14 +113,20 @@ function App() {
                           </div>
                         </h3>
                         <p className='mt-2 text-sm leading-normal'>
-                          Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.
+                        participated in the entire application lifecycle, with a strong focus on coding and debugging. A key aspect of my role has been to maintain the system infrastructure, ensuring clean code implementation using the robust Express.js and Nest.js frameworks within the Clean Architecture paradigm. To ensure optimal system performance, I have diligently monitored server performance, capacity, and security issues. Additionally, I have remained at the forefront of technological advancements, conducting research to apply new technologies in the development of innovative products. Furthermore, I have played a crucial role in developing and supporting the infrastructure of applications, including databases and servers, while also spearheading the creation of core backend systems for microservices applications.
                         </p>
                         <ul className='mt-2 flex flex-wrap'>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Node Js</div>
                           </li>
                           <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Express</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Typescript</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>NestJs</div>
                           </li>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>MySQL</div>
@@ -136,6 +142,294 @@ function App() {
                           </li>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>AWS</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='mb-12'>
+                    <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
+                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>May 22 - Oct 22</header>
+                      <div className='z-10 sm:col-span-6'>
+                        <h3 className='font-medium leading-snug text-slate-200'>
+                          <div>
+                            <a href='https://www.andalin.com' target='_blank' className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'>
+                              <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>
+                              <span>
+                                Lead Fullstack Engineer &nbsp;·
+                                <span className='inline-block'>
+                                  &nbsp; Cartenz Group
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p className='mt-2 text-sm leading-normal'>
+                          Involved integrating the existing Marketa app with Facebook's Graph API to enhance messaging capabilities, campaign management, and Instagram Direct Messaging. I successfully integrated OAuth Facebook User Authentication to provide a seamless login experience. Additionally, I played a significant role in creating new campaign management features for efficient ad management. Furthermore, I diligently addressed bug fixes and improved the app's overall performance, ensuring a smoother and enhanced user experience.
+                        </p>
+                        <ul className='mt-2 flex flex-wrap'>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Node Js</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Express</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>ReactJS</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>NestJs</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>MongoDb</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Postgresql</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Socket.IO</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Supabase</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>GCP</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Firebase</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='mb-12'>
+                    <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
+                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>Feb 22 - Aug 22</header>
+                      <div className='z-10 sm:col-span-6'>
+                        <h3 className='font-medium leading-snug text-slate-200'>
+                          <div>
+                            <a href='https://www.andalin.com' target='_blank' className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'>
+                              <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>
+                              <span>
+                                Fullstack Engineer &nbsp;·
+                                <span className='inline-block'>
+                                  &nbsp; <span className='tracking-tight'>Electronic Digital Interchange</span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p className='mt-2 text-sm leading-normal'>
+                          I have had the privilege to contribute to impactful projects for the Indonesia Ministry of Finance. I have taken part in authoring code fixes and enhancements to ensure the robustness and future optimization of applications. Leading seamless migrations to modern architectures powered by Node.js and React.js, By redesigning web applications, I have aimed to deliver captivating user experiences with intuitive navigation and visually appealing interfaces. Moreover, I have had the opportunity to improve the performance of the international import and export gateway architecture, streamlining data transfer and enhancing efficiency through RESTful APIs. It is with a deep sense of gratitude that I offer my expertise to bring value and success to software projects.
+                        </p>
+                        <ul className='mt-2 flex flex-wrap'>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Node Js</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Express</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Typescript</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>NestJs</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>ReactJs</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Postgresql</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Cassandra DB</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Microservices</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Dev Ops</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>MongoDB</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Message Broker</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Kubernetes</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>OAuth</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Lambda Function</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='mb-12'>
+                    <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
+                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>Sep 21 - Feb 22</header>
+                      <div className='z-10 sm:col-span-6'>
+                        <h3 className='font-medium leading-snug text-slate-200'>
+                          <div>
+                            <a href='https://www.andalin.com' target='_blank' className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'>
+                              <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>
+                              <span>
+                                Fullstack Developer &nbsp;·
+                                <span className='inline-block'>
+                                  &nbsp; Elektronik Virtual Asisten
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p className='mt-2 text-sm leading-normal'>
+                          I have had contribute to impactful projects that have transformed the customer experience. One such project involved developing a user-friendly web console system for the administration panel, empowering customers to effortlessly create chatbots and enhance their knowledge base. Additionally, I had the chance to improve the performance by meticulously addressing over 10 critical bugs in the EVA application, ensuring seamless operations and user satisfaction. As part of my responsibilities, I successfully designed and implemented a secure payment gateway, and enhancing the functionality of the web application. To ensure compatibility across web and mobile platforms.
+                        </p>
+                        <ul className='mt-2 flex flex-wrap'>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>PHP</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Laravel</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Lumen</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Postgresql</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>JQuery</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>AJAX</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Linux</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Dev Ops</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Agile / Scrum</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='mb-12'>
+                    <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
+                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>Jan 18 - Oct 21</header>
+                      <div className='z-10 sm:col-span-6'>
+                        <h3 className='font-medium leading-snug text-slate-200'>
+                          <div>
+                            <a href='https://www.andalin.com' target='_blank' className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'>
+                              <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>
+                              <span>
+                                Freelance &nbsp;·
+                                <span className='inline-block'>
+                                  &nbsp; Fiver | Project.id
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p className='mt-2 text-sm leading-normal'>
+                          Developing a wide range of web applications to cater to diverse user needs, including point of sale applications, marketplaces, and attendance systems. Throughout these projects, I have prioritized the creation of reusable code and libraries, enabling efficient development for future endeavors. To enhance performance, I have diligently optimized and maintained the applications, ensuring maximum speed and scalability. Furthermore, I have placed great importance on cross-platform optimization, guaranteeing a seamless and responsive experience for mobile users. My commitment to delivering high-quality solutions and prioritizing user satisfaction remains steadfast in every project I undertake.
+                        </p>
+                        <ul className='mt-2 flex flex-wrap'>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>SQL</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Laravel</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Typescript</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Fastify</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>PHP</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Webpack</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Babel</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Node Js</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Express</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>React JS</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Wordpress</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Mongo DB</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Shared Hosting</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className='mb-12'>
+                    <div className='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
+                      <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                      <header className='z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2' aria-label='2022 - Present'>Jan 18 - Oct 21</header>
+                      <div className='z-10 sm:col-span-6'>
+                        <h3 className='font-medium leading-snug text-slate-200'>
+                          <div>
+                            <a href='https://www.andalin.com' target='_blank' className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base'>
+                              <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>
+                              <span>
+                                Backend Engineer (Intern) &nbsp;·
+                                <span className='inline-block'>
+                                  &nbsp; Rail System
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </h3>
+                        <p className='mt-2 text-sm leading-normal'>
+                          Contributed to projects includes creating a server and database infrastructure for a microservice architecture using Docker. Additionally, I have leveraged PHP with the Laravel Framework to design and develop over 10 REST APIs, delivering robust and efficient solutions. Another significant accomplishment was the development of a web-based new student registration application, which has been successfully utilized by SMK TI Garuda Nusantara Cimahi for a span of three years. These achievements showcase my commitment to delivering high-quality solutions that meet the unique needs of clients, fostering seamless experiences and long-term success.
+                        </p>
+                        <ul className='mt-2 flex flex-wrap'>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>PHP</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Laravel</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Docker</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Microservices</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>API Gateway</div>
                           </li>
                         </ul>
                       </div>
