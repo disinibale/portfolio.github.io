@@ -16,11 +16,13 @@ function App() {
     }
     root.classList.add('scroll-smooth')
   }, []);
+  console.log(mouseCoordinate)
   return (
     <div
       onMouseEnter={() => setIsMouseEnter(true)}
       onMouseLeave={() => setIsMouseEnter(false)}
       onMouseMove={(e) => setMouseCoordinate({ x: e.pageX, y: e.pageY })}
+      onMouseOver={(e) => setMouseCoordinate({ x: e.pageX, y: e.pageY })}
       id="app"
       className="relative">
       <div
@@ -37,7 +39,7 @@ function App() {
             <div>
               <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Muhamad Iqbal Nurzaman</h1>
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Senior Backend Engineer</h2>
-              <p className="mt-4 max-w-xs leading-normal typewriter">Ready to create your dream Web Services</p>
+              <p className="mt-4 max-w-xs leading-normal typewriter">An experienced Web Developer with expertise using Typescript & Go Programming Language</p>
               <nav className="nav hidden lg:block">
                 <ul className="mt-16 w-max">
                   <li>
@@ -80,11 +82,10 @@ function App() {
                 <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>About</h2>
               </div>
               <div>
-                <p className='mb-4'>From an early age, computers held an irresistible allure for me. It all began when my father introduced me to the world of technology with used PCs. Intrigued by their capabilities, my fascination with programming and networking took root. I vividly recall the transformative moment when I poking around into modding Grand Theft Auto: San Andreas, igniting a lifelong passion for programming.</p>
-                <p className='mb-4'>This newfound love propelled me on a journey of exploration and learning. HTML, CSS, JavaScript, Java, C, and network programming became my playground as I continuously expanded my skill set. It was during this time that I discovered the immense power of Node.js, an influential runtime environment for server-side JavaScript.</p>
-                <p className='mb-4'>Node.js opened up boundless possibilities in web development. Its non-blocking, event-driven architecture captivated me, allowing me to build scalable server applications with JavaScript. Harnessing the extensive ecosystem of Node.js libraries and frameworks, I honed my craft in constructing robust web solutions.</p>
-                <p className='mb-4'>Driven by my dreams, I pursued a software engineering major at a vocational high school while gaining practical experience through freelancing and collaborating with diverse entities. This hands-on journey led me to work alongside the Indonesian Ministry of Finance and innovative startups. Throughout these experiences, my expertise in Node.js played a pivotal role in developing cutting-edge solutions.</p>
-                <p>Today, I find myself at Andalin, a dynamic startup specializing in digital freight forwarding. Empowered by a talented team, I am inspired to push boundaries and deliver innovative solutions leveraging the power of Node.js. Looking back, I am proud of the progress made since those early days of exploring computers. Yet, my excitement to grow and evolve as a software engineer knows no bounds. With every line of code written and every challenge conquered, I am reminded of the limitless opportunities that lie ahead.</p>
+                <p className='mb-4'>In 2013, I learned how to make a mod for the game <a href='https://www.rockstargames.com/games/sanandreas' target='_blank' className='font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 cursor-pointer'>Grand Theft Auto: San Andreas</a> and uploaded the mod on a dedicated mod site for that game. Without realizing it, lots of people use my mod to install in their game, and lots of requests to make more mods.</p>
+                <p className='mb-4'>Without realizing it, I was addicted to making a program and I decided at that time to become a game developer. But who would have thought, today I become a <span className='font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 cursor-pointer'>Web Developer</span>.</p>
+                <p className='mb-4'>Now, I work for a startup in the field of Digital Freight Forwarding Company called <span className='font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300'>Andalin</span> which has 2 main products <span className='font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300'>Andalin Shipping</span> and <span className='font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300'>Syncargo</span> (SaaS). My main role at the moment is to develop and maintain products that are being developed by the Andalin team, as well as to conduct research and development in order to provide cool features for Andalin customers.</p>
+                <p className='mb-4'>Sometimes, when I'm not programming, I usually actively play and develop a FiveM server (a framework to play Grand Theft Auto V: Online), probably play chess, or watch some documentaries.</p>
               </div>
             </section>
             <section id="experience">
@@ -106,18 +107,21 @@ function App() {
                                 Senior Backend Engineer &nbsp;·
                                 <span className='inline-block'>
                                   &nbsp; Andalin
-                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path></svg>
                                 </span>
                               </span>
                             </a>
                           </div>
                         </h3>
                         <p className='mt-2 text-sm leading-normal'>
-                        participated in the entire application lifecycle, with a strong focus on coding and debugging. A key aspect of my role has been to maintain the system infrastructure, ensuring clean code implementation using the robust Express.js and Nest.js frameworks within the Clean Architecture paradigm. To ensure optimal system performance, I have diligently monitored server performance, capacity, and security issues. Additionally, I have remained at the forefront of technological advancements, conducting research to apply new technologies in the development of innovative products. Furthermore, I have played a crucial role in developing and supporting the infrastructure of applications, including databases and servers, while also spearheading the creation of core backend systems for microservices applications.
+                          Developed a highly advanced back-end service that utilized OCR and NLP technologies to read Bill of Lading Documents. Additionally, I created a framework for generating customized Bill of Lading Documents based on customer inputs and product types. Moreover, I was responsible for architecting and developing internal web services to handle high-demand traffic for the FIATA Paperless service, enabling standardized Bill of Lading issuance on behalf of Andalin Customers. Furthermore, I seamlessly integrated an internal web service for document signatories, ensuring seamless integration with a third-party service for legal, finance, and commercial purposes. These achievements demonstrate my technical expertise and ability to provide innovative solutions while effectively collaborating with cross-functional teams.
                         </p>
                         <ul className='mt-2 flex flex-wrap'>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Node Js</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Go Lang</div>
                           </li>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Express</div>
@@ -127,6 +131,9 @@ function App() {
                           </li>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>NestJs</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>GIN Framework</div>
                           </li>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>MySQL</div>
@@ -142,6 +149,9 @@ function App() {
                           </li>
                           <li className='mr-1.5 mt-2'>
                             <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>AWS</div>
+                          </li>
+                          <li className='mr-1.5 mt-2'>
+                            <div className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 '>Amazon Extract</div>
                           </li>
                         </ul>
                       </div>
